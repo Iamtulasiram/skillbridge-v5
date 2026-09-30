@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: skillbridge-v5
+    runtime: node
+    plan: free
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20

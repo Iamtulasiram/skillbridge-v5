@@ -1,0 +1,13 @@
+{
+  "name": "skillbridge-v5",
+  "version": "5.0.0",
+  "private": true,
+  "description": "SkillBridge DTPI prototype",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
